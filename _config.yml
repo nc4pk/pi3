@@ -1,1 +1,8 @@
 theme: jekyll-theme-cayman
+collections:
+  - web:
+    - output: true
+    - permalink: /web/:path/
+  - apps
+    - output: true
+    - permalink: /apps/:path/
