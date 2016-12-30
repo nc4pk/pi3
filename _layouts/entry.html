@@ -2,7 +2,7 @@
 <html lang="en-us">
 <head>
     <meta charset="UTF-8">
-    <title>Web index — PI3</title>
+    <title>{{ page.title }} — PI3 </title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#157878">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
@@ -10,17 +10,12 @@
 </head>
 <body>
     <section class="page-header-sm">
-        <h1 class="project-name">Web</h1>   
+        <h1 class="project-name">{{ page.title }}</h1>   
     </section>
 
     <section class="main-content">
         {{ content }}
-        <ul>
-        {% for w in site.web %}
-            <li><a href="{{w.link}}">{{ w.title }}</a>: <a href="{{w.url}}" class="desc">{{ w.desc }}</a></li>
-        {% endfor %}
-        </ul>
-
+        
         <footer class="site-footer">
             <a href="/" class="ret">Return to main site</a>
             {% if site.github.is_project_page %}

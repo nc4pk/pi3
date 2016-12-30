@@ -1,6 +1,7 @@
 ---
+layout: entry
 title: HotBits
-url: http://www.fourmilab.ch/hotbits/
+link: http://www.fourmilab.ch/hotbits/
 desc: generates random numbers using radioactive decay
 ---
 

@@ -1,6 +1,7 @@
 ---
+layout: entry
 title: Keybr
-url: http://www.fourmilab.ch/hotbits/
+link: http://www.keybr.com/
 desc: HTML5 typing speed test and tutor
 ---
 
