@@ -3,6 +3,7 @@ layout: entry
 title: Keybr
 link: http://www.keybr.com/
 desc: HTML5 typing speed test and tutor
+date: 2016-12-29
 ---
 
 [Keybr][1] is a typing speed test and touch-typing tutor. The tutor generates typing lessons that match the typist's skill level. It supports multiple languages, emulating different keyboard layouts, and has a high scores table. 
